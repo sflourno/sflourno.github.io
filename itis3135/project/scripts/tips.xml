@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tips>
+	<tricks>
+		<category>Page Style</category>
+		<description>Create a cohesive page</description>
+	</tricks>
+    <tricks>
+		<category>Posting</category>
+		<description>Post during active times</description>
+	</tricks>
+    <tricks>
+		<category>Interactions</category>
+		<description>Like,Comment, and Share yours and others post</description>
+	</tricks>
+    <tricks>
+		<category>Interactions</category>
+		<description>Interact with your followers</description>
+	</tricks>
+    <tricks>
+		<category>Trends</category>
+		<description>Keep up to date with current trends</description>
+	</tricks>
+    <tricks>
+		<category>Algorithm</category>
+		<description>Make the algorithm work for you!</description>
+	</tricks>
+</tips>

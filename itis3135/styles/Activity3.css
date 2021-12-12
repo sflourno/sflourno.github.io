@@ -1,0 +1,50 @@
+
+
+
+body {
+	font-size: 16px;
+   	background-color: #A7C7E7;
+	color: #680000;
+}
+
+
+h1 {
+	font-style: italic;
+	font-size: 28px;
+    	text-align: center;
+    	background-color: #834333;
+	color: #f8f8f8;
+}
+
+
+input[type=submit] {
+
+	font-style: italic;
+	background-color: #D27D2D;
+}
+
+
+input[type=text] {
+
+	font-style: italic;
+	background-color: #D27D2D;
+	border: 2px solid black;
+	border-radius: 4px;
+}
+
+input[type=radio] {
+
+	font-style: italic;
+	background-color: #D27D2D;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+    <link href="styles/default.css" rel="stylesheet" type="text/css" >
 	<title>Shaina Flournoy, COURSEID, Pagename</title>
 </head>
 
@@ -13,16 +13,28 @@
 			<h1>Shaina Flournoy >> ITIS3135</h1>
 	</header>
 	<nav>
-		<a href="index.html">Home</a> 
-        ||
-		<a href="contract.html">Contract</a>
-        ||
+		<a href="arrays.html">Arrays</a> 
 	</nav>	
 	
 	<main>
-        <h2>Class Home Page</h2>
-        <h4>Link to class folder: <a href="C:\Users\shain\OneDrive\Documents\itis3135_work\sflourno.github.io\itis3135">Here</a> </h4>
+        <h2>Arrays</h2>
+        <p>
+            <!--buttons adding, subtracting, multiplying, and dividing when clicked-->
+            <button onclick = "addSalary()">Add Salary</button>
+            <button onclick = "displayResults()">Display Results</button>
+            <button onclick = "displaySalary()">Display Salary</button>
+        </p>
+
+        <form action=#>
+            <h4>Employee Options</h4>
+                <label for="employee">Employee:</label>
+                <select name="employee" id="employee">
+                <option value="name1">Tyler Lipski</option>
+                <option value="name2">Candice Alick</option>
+                </select>
+        </form>
 	
+        <script src="arrays_script.js"></script>
 	</main>
 	
 	<footer>
@@ -39,7 +51,7 @@
 		</nav>
 		<br />
 		<p>
-			Page built by Olivia and Co.
+			Olivia and Co. 2021
 		</p>
 		<a href="https://validator.w3.org/check?uri=referer">
 			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">

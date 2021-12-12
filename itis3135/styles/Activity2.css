@@ -1,0 +1,37 @@
+body
+{
+	width: 750px;
+	margin: 0 auto;
+	background-color: lightgrey;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: #ffe4e1;
+}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+
+tbody tr:nth-child(odd) td
+{
+	background-color: #e6e6fa;
+}
+
+a:hover {
+  color: #e6e6fa;
+}

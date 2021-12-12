@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link href="styles/calculator_tut.css" rel="stylesheet" type="text/css" >
+    <link href="styles/default.css" rel="stylesheet" type="text/css" > 
+	<title>Shaina Flournoy, COURSEID, Pagename</title>
+</head>
+
+<body>
+	<header>
+			<h1>Shaina Flournoy >> ITIS3135</h1>
+	</header>
+	<nav>
+		<a href="calculator_tut.html">Calculator Based on a Tutorial</a> 
+	</nav>	
+	
+	<main>
+        <h2>Calculator Try</h2>
+        <p>This webpage is based on a tutorial by <a href="https://www.makeuseof.com/build-a-simple-calculator-using-html-css-javascript/"> makeuseof.com!</a></p>
+        <table class = "calculator" >
+            <tr>
+            <td colspan = "3"> <input class = "display-box" type = "text" id = "result" disabled /> </td>
+            <td> <input class = "button" type = "button" value = "C" onclick = "clear()" > </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "1" onclick = "display('1')" /> </td>
+            <td> <input class = "button" type = "button" value = "2" onclick = "display('2')" /> </td>
+            <td> <input class = "button" type = "button" value = "3" onclick = "display('3')" /> </td>
+            <td> <input class = "button" type = "button" value = "/" onclick = "display('/')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "4" onclick = "display('4')" /> </td>
+            <td> <input class = "button" type = "button" value = "5" onclick = "display('5')" /> </td>
+            <td> <input class = "button" type = "button" value = "6" onclick = "display('6')" /> </td>
+            <td> <input class = "button" type = "button" value = "-" onclick = "display('-')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "7" onclick = "display('7')" /> </td>
+            <td> <input class = "button" type = "button" value = "8" onclick = "display('8')" /> </td>
+            <td> <input class = "button" type = "button" value = "9" onclick = "display('9')" /> </td>
+            <td> <input class = "button" type = "button" value = "+" onclick = "display('+')" /> </td>
+            </tr>
+            <tr>
+            <td> <input class = "button" type = "button" value = "." onclick = "display('.')" /> </td>
+            <td> <input class = "button" type = "button" value = "0" onclick = "display('0')" /> </td>
+            <td> <input class = "button" type = "button" value = "=" onclick = "calculate()"> </td>
+            <td> <input class = "button" type = "button" value = "*" onclick = "display('*')" /> </td>
+            </tr>
+            </table>
+	
+        <script src="scripts/calculator_tut.js"></script>
+	</main>
+	
+	<footer>
+		<br/>
+		<nav>
+		    <a href="https://webpages.uncc.edu/sflourno/" target="_blank">Charlotte.edu</a> &#9553;
+		    <a href="https://github.com/sflourno" target="_blank">Github</a> &#9553;
+		    <a href="https://github.com/sflourno/sflourno.github.io" target="_blank">Github.io</a> &#9553;
+		    <a href="https://sflourno.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a> &#9553;
+		    <a href="https://www.instagram.com/shainaolivia01/" target="_blank">Instagram</a> &#9553;
+		    <a href="https://www.freecodecamp.org/sflourno/" target="_blank">freeCodeCamp</a> &#9553;
+		    <a href="https://www.facebook.com/olivia.flournoy.5" target="_blank">Facebook</a> &#9553;
+		    <a href="https://www.linkedin.com/in/shainaflournoy" target="_blank">LinkedIn</a> &#9553;
+		</nav>
+		<br />
+		<p>
+			Olivia and Co. 2021
+		</p>
+		<a href="https://validator.w3.org/check?uri=referer">
+			<img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+		</a>
+
+		<a href="https://jigsaw.w3.org/css-validator/check/referer">
+			<img src="images/button-valid-css.gif" width="88" height="31" alt="Link to CSS validator">
+		</a>
+	
+	</footer>
+
+</body>
+
+</html>
